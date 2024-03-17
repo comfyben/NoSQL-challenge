@@ -4,11 +4,11 @@
 
 1. Import the data provided in the establishments.json file from your Terminal. Name the database uk_food and the collection establishments. Import libraries into notebook. Create an instance of the Mongo Client. Confirm that you create the database.
 
-![alt text](noSql_part1.png)
+![alt text](images/noSql_part1.png)
 
 2. Add a the new restaurant into the database.
 
-![alt text](noSql_part2.png)
+![alt text](images/noSql_part2.png)
 
 3. update the BusinessTypeID of the new restaurant
 ```
@@ -75,13 +75,13 @@ london_df.head(10)
 
 3. What are the top 5 establishments with a RatingValue rating value of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
 
-![alt text](noSql_part3.png)
+![alt text](images/noSql_part3.png)
 
 - results were dataframed
 
 4. How many establishments in each Local Authority area have a hygiene score of 0?
 
-![alt text](noSql_part4.png)
+![alt text](images/noSql_part4.png)
 
 - pd.dataframe(results) you already know
 

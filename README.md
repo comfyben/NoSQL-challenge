@@ -1,6 +1,6 @@
 # NoSQL-challenge
 
-##SETUP
+## SETUP
 
 1. Import the data provided in the establishments.json file from your Terminal. Name the database uk_food and the collection establishments. Import libraries into notebook. Create an instance of the Mongo Client. Confirm that you create the database.
 
@@ -26,7 +26,7 @@ establishments.update_one({"BusinessName":"Penang Flavours"}, {
 
 `establishments.delete_many({'LocalAuthorityName':'Dover'})`
 
-##ANALYSIS
+## ANALYSIS
 
 1. Which restaurants in the database have a hygiene score of 20?
 
